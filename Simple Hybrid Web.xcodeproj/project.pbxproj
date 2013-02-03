@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE14539016BE6A89007B0F61 /* hoss.html in Resources */ = {isa = PBXBuildFile; fileRef = CE14538F16BE6A89007B0F61 /* hoss.html */; };
+		CE14539716BE6A9E007B0F61 /* HossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14539216BE6A9E007B0F61 /* HossViewController.m */; };
+		CE14539816BE6A9E007B0F61 /* HossWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE14539416BE6A9E007B0F61 /* HossWebView.xib */; };
+		CE14539916BE6A9E007B0F61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14539516BE6A9E007B0F61 /* AppDelegate.m */; };
+		CE1453A016BE6ABE007B0F61 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14539A16BE6ABE007B0F61 /* Default-568h@2x.png */; };
+		CE1453A116BE6ABE007B0F61 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14539B16BE6ABE007B0F61 /* Default.png */; };
+		CE1453A216BE6ABE007B0F61 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14539C16BE6ABE007B0F61 /* Default@2x.png */; };
+		CE1453A416BE6ABE007B0F61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14539E16BE6ABE007B0F61 /* main.m */; };
+		CE8DEDBA16BD9B2C00DBB6D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DEDB916BD9B2C00DBB6D4 /* UIKit.framework */; };
+		CE8DEDBC16BD9B2C00DBB6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DEDBB16BD9B2C00DBB6D4 /* Foundation.framework */; };
+		CE8DEDBE16BD9B2C00DBB6D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8DEDBD16BD9B2C00DBB6D4 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE14538F16BE6A89007B0F61 /* hoss.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = hoss.html; path = "Simple Hybrid Web/hoss.html"; sourceTree = SOURCE_ROOT; };
+		CE14539216BE6A9E007B0F61 /* HossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HossViewController.m; path = "Simple Hybrid Web/HossViewController.m"; sourceTree = SOURCE_ROOT; };
+		CE14539316BE6A9E007B0F61 /* HossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HossViewController.h; path = "Simple Hybrid Web/HossViewController.h"; sourceTree = SOURCE_ROOT; };
+		CE14539416BE6A9E007B0F61 /* HossWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HossWebView.xib; path = "Simple Hybrid Web/HossWebView.xib"; sourceTree = SOURCE_ROOT; };
+		CE14539516BE6A9E007B0F61 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Simple Hybrid Web/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		CE14539616BE6A9E007B0F61 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Simple Hybrid Web/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		CE14539A16BE6ABE007B0F61 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Simple Hybrid Web/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		CE14539B16BE6ABE007B0F61 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Simple Hybrid Web/Default.png"; sourceTree = SOURCE_ROOT; };
+		CE14539C16BE6ABE007B0F61 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Simple Hybrid Web/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		CE14539D16BE6ABE007B0F61 /* Simple Hybrid Web-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Simple Hybrid Web-Info.plist"; path = "Simple Hybrid Web/Simple Hybrid Web-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CE14539E16BE6ABE007B0F61 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Simple Hybrid Web/main.m"; sourceTree = SOURCE_ROOT; };
+		CE14539F16BE6ABE007B0F61 /* Simple Hybrid Web-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Simple Hybrid Web-Prefix.pch"; path = "Simple Hybrid Web/Simple Hybrid Web-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		CE8DEDB516BD9B2C00DBB6D4 /* Simple Hybrid Web.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Hybrid Web.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8DEDB916BD9B2C00DBB6D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE8DEDBB16BD9B2C00DBB6D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE8DEDBD16BD9B2C00DBB6D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8DEDB216BD9B2C00DBB6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8DEDBA16BD9B2C00DBB6D4 /* UIKit.framework in Frameworks */,
+				CE8DEDBC16BD9B2C00DBB6D4 /* Foundation.framework in Frameworks */,
+				CE8DEDBE16BD9B2C00DBB6D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8DEDAA16BD9B2C00DBB6D4 = {
+			isa = PBXGroup;
+			children = (
+				CE8DEDBF16BD9B2C00DBB6D4 /* Simple Hybrid Web */,
+				CE8DEDB816BD9B2C00DBB6D4 /* Frameworks */,
+				CE8DEDB616BD9B2C00DBB6D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8DEDB616BD9B2C00DBB6D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DEDB516BD9B2C00DBB6D4 /* Simple Hybrid Web.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8DEDB816BD9B2C00DBB6D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8DEDB916BD9B2C00DBB6D4 /* UIKit.framework */,
+				CE8DEDBB16BD9B2C00DBB6D4 /* Foundation.framework */,
+				CE8DEDBD16BD9B2C00DBB6D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8DEDBF16BD9B2C00DBB6D4 /* Simple Hybrid Web */ = {
+			isa = PBXGroup;
+			children = (
+				CEE07D4116BDB7550002DAC8 /* html */,
+				CE14539216BE6A9E007B0F61 /* HossViewController.m */,
+				CE14539316BE6A9E007B0F61 /* HossViewController.h */,
+				CE14539416BE6A9E007B0F61 /* HossWebView.xib */,
+				CE14539516BE6A9E007B0F61 /* AppDelegate.m */,
+				CE14539616BE6A9E007B0F61 /* AppDelegate.h */,
+				CE8DEDC016BD9B2C00DBB6D4 /* Supporting Files */,
+			);
+			name = "Simple Hybrid Web";
+			path = "Hybrid Web";
+			sourceTree = "<group>";
+		};
+		CE8DEDC016BD9B2C00DBB6D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE14539A16BE6ABE007B0F61 /* Default-568h@2x.png */,
+				CE14539B16BE6ABE007B0F61 /* Default.png */,
+				CE14539C16BE6ABE007B0F61 /* Default@2x.png */,
+				CE14539D16BE6ABE007B0F61 /* Simple Hybrid Web-Info.plist */,
+				CE14539E16BE6ABE007B0F61 /* main.m */,
+				CE14539F16BE6ABE007B0F61 /* Simple Hybrid Web-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEE07D4116BDB7550002DAC8 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				CE14538F16BE6A89007B0F61 /* hoss.html */,
+			);
+			name = html;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8DEDB416BD9B2C00DBB6D4 /* Simple Hybrid Web */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8DEDDC16BD9B2C00DBB6D4 /* Build configuration list for PBXNativeTarget "Simple Hybrid Web" */;
+			buildPhases = (
+				CE8DEDB116BD9B2C00DBB6D4 /* Sources */,
+				CE8DEDB216BD9B2C00DBB6D4 /* Frameworks */,
+				CE8DEDB316BD9B2C00DBB6D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Hybrid Web";
+			productName = "Hybrid Web";
+			productReference = CE8DEDB516BD9B2C00DBB6D4 /* Simple Hybrid Web.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8DEDAC16BD9B2C00DBB6D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = will.asrari;
+			};
+			buildConfigurationList = CE8DEDAF16BD9B2C00DBB6D4 /* Build configuration list for PBXProject "Simple Hybrid Web" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE8DEDAA16BD9B2C00DBB6D4;
+			productRefGroup = CE8DEDB616BD9B2C00DBB6D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8DEDB416BD9B2C00DBB6D4 /* Simple Hybrid Web */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8DEDB316BD9B2C00DBB6D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE14539016BE6A89007B0F61 /* hoss.html in Resources */,
+				CE14539816BE6A9E007B0F61 /* HossWebView.xib in Resources */,
+				CE1453A016BE6ABE007B0F61 /* Default-568h@2x.png in Resources */,
+				CE1453A116BE6ABE007B0F61 /* Default.png in Resources */,
+				CE1453A216BE6ABE007B0F61 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8DEDB116BD9B2C00DBB6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE14539716BE6A9E007B0F61 /* HossViewController.m in Sources */,
+				CE14539916BE6A9E007B0F61 /* AppDelegate.m in Sources */,
+				CE1453A416BE6ABE007B0F61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE8DEDDA16BD9B2C00DBB6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8DEDDB16BD9B2C00DBB6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8DEDDD16BD9B2C00DBB6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Hybrid Web/Simple Hybrid Web-Prefix.pch";
+				INFOPLIST_FILE = "Simple Hybrid Web/Simple Hybrid Web-Info.plist";
+				PRODUCT_NAME = "Simple Hybrid Web";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE8DEDDE16BD9B2C00DBB6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Hybrid Web/Simple Hybrid Web-Prefix.pch";
+				INFOPLIST_FILE = "Simple Hybrid Web/Simple Hybrid Web-Info.plist";
+				PRODUCT_NAME = "Simple Hybrid Web";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8DEDAF16BD9B2C00DBB6D4 /* Build configuration list for PBXProject "Simple Hybrid Web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DEDDA16BD9B2C00DBB6D4 /* Debug */,
+				CE8DEDDB16BD9B2C00DBB6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8DEDDC16BD9B2C00DBB6D4 /* Build configuration list for PBXNativeTarget "Simple Hybrid Web" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8DEDDD16BD9B2C00DBB6D4 /* Debug */,
+				CE8DEDDE16BD9B2C00DBB6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8DEDAC16BD9B2C00DBB6D4 /* Project object */;
+}
