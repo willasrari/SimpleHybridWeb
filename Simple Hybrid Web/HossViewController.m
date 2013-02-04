@@ -66,17 +66,17 @@
 
 #pragma UIWebViewDelegate implementation
 
-- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
-    NSData *data = request.HTTPBody;
-    NSString *dataString = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
-    
-    if ([dataString length] > 0) {
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {    
+    if (navigationType == UIWebViewNavigationTypeFormSubmitted) {
+        NSData *data = request.HTTPBody;
+        NSString *dataString = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
         NSString *username = [[dataString componentsSeparatedByString:@"="] objectAtIndex:1];
         
         [self.navigationBar.topItem setTitle:[NSString stringWithFormat:@"Hello %@!", username]];
         [self updateUserDefaultsWithUsername:username];
+
     }
-        
+    
     return YES;
 }
 
