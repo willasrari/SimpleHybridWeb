@@ -84,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				CEE07D4116BDB7550002DAC8 /* html */,
-				CE14539216BE6A9E007B0F61 /* HossViewController.m */,
 				CE14539316BE6A9E007B0F61 /* HossViewController.h */,
+				CE14539216BE6A9E007B0F61 /* HossViewController.m */,
 				CE14539416BE6A9E007B0F61 /* HossWebView.xib */,
 				CE14539516BE6A9E007B0F61 /* AppDelegate.m */,
 				CE14539616BE6A9E007B0F61 /* AppDelegate.h */,
