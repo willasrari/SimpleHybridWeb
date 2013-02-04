@@ -74,7 +74,6 @@
         
         [self.navigationBar.topItem setTitle:[NSString stringWithFormat:@"Hello %@!", username]];
         [self updateUserDefaultsWithUsername:username];
-
     }
     
     return YES;
